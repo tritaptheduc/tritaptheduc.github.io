@@ -42,7 +42,7 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '20'
-          cache: ${{ steps.detect-package-manager().outputs.manager }}
+          cache: ${{ steps.detect-package-manager.outputs.manager }}
           cache-dependency-path: ${{ env.BUILD_PATH }}/package-lock.json
 
       - name: Setup Pages
@@ -50,14 +50,14 @@ jobs:
         uses: actions/configure-pages@v5
 
       - name: Install dependencies
-        run: ${{ steps.detect-package-manager().outputs.manager }} ${{ steps.detect-package-manager().outputs.command }}
+        run: ${{ steps.detect-package-manager.outputs.manager }} ${{ steps.detect-package-manager.outputs.command }}
         working-directory: ${{ env.BUILD_PATH }}
 
       - name: Build Astro
         run: |
-          ${{ steps.detect-package-manager().outputs.runner }} astro build \
-            --site "${{ steps.pages().outputs.origin }}" \
-            --base "${{ steps.pages().outputs.base_path }}"
+          ${{ steps.detect-package-manager.outputs.runner }} astro build \
+            --site "${{ steps.pages.outputs.origin }}" \
+            --base "${{ steps.pages.outputs.base_path }}"
         working-directory: ${{ env.BUILD_PATH }}
 
       - name: Upload artifact
@@ -68,7 +68,7 @@ jobs:
   deploy:
     environment:
       name: github-pages
-      url: ${{ steps.deployment().outputs.page_url }}
+      url: ${{ steps.deployment.outputs.page_url }}
     needs: build
     runs-on: ubuntu-latest
     name: Deploy
