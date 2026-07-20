@@ -24,14 +24,14 @@ export const siteConfig = {
       name: "AutoAudit-Logistics: Automated Freight Invoice Audit Engine | SQL, Python, Power BI - DAX",
       description:
         "Designed and deployed an end-to-end automated freight invoice auditing pipeline using the Lean Six Sigma DMAIC framework to eliminate systemic corporate logistics cost leakage.",
-      link: "https://fullstackextensions.com/?ref=devportfolio",
+      link: "https://github.com/tritaptheduc/logistics-freight-audit",
       skills: ["Python", "BigQuery SQL", "Power BI"],
     },
     {
       name: "FreightBench-Analytics: Ocean Freight Rate Benchmarking Engine | BigQuery SQL, Python, Power BI, DAX",
       description:
         "Accelerated sales quoting cycle efficiency by 95% (reducing response time from 4 hours to under 10 seconds), completely eliminated out-of-date pricing risks, and locked in optimal carrier routing to protect net logistics margins across all active trade lanes.",
-      link: "https://extensionkit.io/?ref=devportfolio",
+      link: "https://github.com/tritaptheduc/logistics-freight-rates",
       skills: ["Python", "BigQuery SQL", "Power BI"],
     },
   ],
