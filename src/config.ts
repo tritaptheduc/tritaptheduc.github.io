@@ -1,7 +1,7 @@
 export const siteConfig = {
-  name: "Ryan Fitzgerald",
-  title: "Senior Software Engineer",
-  description: "Portfolio website of Ryan Fitzgerald",
+  name: "Tri, Nguyen",
+  title: "Logistics & Operations Excellence Specialist",
+  description: "Portfolio website of Minh Tri",
   accentColor: "#1d4ed8",
   social: {
     email: "tri.lamviec@example.com",
@@ -10,29 +10,29 @@ export const siteConfig = {
     github: "https://github.com/tritaptheduc",
   },
   aboutMe:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quos asperiores nihil consequatur tempore cupiditate architecto natus commodi corrupti quas quasi facere est, dignissimos odit nam veniam sapiente ut, vitae eligendi ipsum dolor, nostrum ullam impedit! Corrupti ratione mollitia temporibus necessitatibus, consectetur reiciendis recusandae id, dolorum quaerat, vero pariatur. Ratione!",
+    "Logistics and Supply Chain professional with hands-on experience spanning from on-site maritime operations to supply chain data analysis. Adept at bridging the gap between field execution and data-driven cost optimization. Strong focus on building analytical workflows, lane benchmarking, and data automation to eliminate operational waste and identify savings opportunities.",
   skills: ["Power BI", "Excel", "Power Query", "Power Pivot", "SQL", "Python", "Google App Scripts"],
   projects: [
     {
-      name: "AI Dev Roundup Newsletter",
+      name: "SALES-DATA AUTOMATION & OPTIMIZATION (Applied DMAIC Framework)",
       description:
-        "One concise email. Five minutes. Every Tuesday. Essential AI news & trends, production-ready libraries, powerful AI tools, and real-world code examples",
+        "Optimize data processing time for business personnel (from taking around 30 minutes every day to being automated end-to-end, standardize the Master data structure (Single Source of Truth) to directly serve connecting automatic reporting Dashboards.",
       link: "https://aidevroundup.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+      skills: ["GAS", "BigQuery SQL", "Looker Studio"],
     },
     {
-      name: "Chrome Extension Mastery: Build Full-Stack Extensions with React & Node.js",
+      name: "AutoAudit-Logistics: Automated Freight Invoice Audit Engine | SQL, Python, Power BI - DAX",
       description:
-        "Master the art of building production-ready, full-stack Chrome Extensions using modern web technologies and best practices",
+        "Designed and deployed an end-to-end automated freight invoice auditing pipeline using the Lean Six Sigma DMAIC framework to eliminate systemic corporate logistics cost leakage.",
       link: "https://fullstackextensions.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+      skills: ["Python", "BigQuery SQL", "Power BI"],
     },
     {
-      name: "ExtensionKit",
+      name: "FreightBench-Analytics: Ocean Freight Rate Benchmarking Engine | BigQuery SQL, Python, Power BI, DAX",
       description:
-        "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
+        "Accelerated sales quoting cycle efficiency by 95% (reducing response time from 4 hours to under 10 seconds), completely eliminated out-of-date pricing risks, and locked in optimal carrier routing to protect net logistics margins across all active trade lanes.",
       link: "https://extensionkit.io/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+      skills: ["Python", "BigQuery SQL", "Power BI"],
     },
   ],
   experience: [
